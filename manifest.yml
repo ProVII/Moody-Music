@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: Moody Music7.0
+  host: MoodyMusic
+  disk_quota: 1024M
+  buildpack: php_buildpack
