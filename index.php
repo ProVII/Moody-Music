@@ -4,7 +4,7 @@
  -    Please note, you will not be able to test the site with Facebook because    -
  -    it requires that you're pre-approved to use Moody Music. However, you may   - 
  -    still be able to run Twitter, but it will be logged into my account.        - 
- -    Therefore, you will not be able to test it with new tweets.                 -
+ -    Therefore, you will not be able to test it with your own new tweets.        -
  -                                                                                -
  -    You'll also notice that for any new tweets or facebook posts, we just call  - 
  -    the moodyDictionary(term) function, which does the rest. Therefore, if you  -
@@ -17,6 +17,7 @@
  -    Example:                                                                    -
  -        moodyDictionary("This is a facebook or a twitter status test request"); -
  -                                                                                -
+ -    You may check the README.md for more details.                               -
  -    Thank you for your understanding.                                           -
  ---------------------------------------------------------------------------------->
 <?php session_start(); ?>
