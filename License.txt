@@ -1,1 +1,1 @@
-<Replace this text with the license you've chosen for your project.>
+This app is protected by the default github licensing, therefore if you require to use any of the code in this application, you'll need to contact the authors for permissions.
