@@ -17,4 +17,4 @@ Unfortunately, this is not the case right now since the application is not publi
    1. If you'd like to also enable twitter for your own timeline, you gotta head to their Developer Console as well and create your own app. Once successful, retrieve the api key and secret, head to `twitter.php` and paste each one within its respective line (i.e. where it says `$api_key = urlencode('paste your api key here')` and `$api_secret = urlencode('paste your api secret here')`). Finally, to change to your own twitter username, `$data_username = 'Username'`, add your username  within the quotes on that line. VOILA !!! Now you've successfully added your own twitter timeline to the app.
 
 ### License
-Please view the [License.txt] (https://github.com/ProVII/Moody-Music/blob/master/License.txt) file, this application is copyrighted.
+This application is copyrighted, please view the [License.txt] (https://github.com/ProVII/Moody-Music/blob/master/License.txt) .
