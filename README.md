@@ -2,7 +2,7 @@
 This readme file provides you with any instructions necessary to run this application and makes it easier to understand.
 
 ### Running the application
-~~You can test the application live from: [Moody Music Page] (http://moodymusic.mybluemix.net)~~ This application currently not live.
+~~You can test the application live from: [Moody Music Page] (http://moodymusic.mybluemix.net)~~ This application is currently not live.
 
 This application is very simple to use, once published, all you really need to do is to login (and accept permissions) to facebook and/or twitter and it will automatically start retrieving your status/tweet updates and you'll enjoy music.
 
