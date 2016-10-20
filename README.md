@@ -1,6 +1,12 @@
 # Welcome to Moody Music
 This readme file provides you with any instructions necessary to run this application and makes it easier to understand.
 
+## Moody Music
+As the name sounds, this application plays music according to your mood. How would it know your mood though? Simply put it retrieves status updates from your Facebook profile and tweets from your Twitter page, that data is then analyzed through the Moody Music sentimental analysis algorithm and music based on your mood will start playing.
+•	This application was developed on a cloud environment, specifically tested on IBM Bluemix and utilizes cloud services such as auto-scaling and online storage.
+•	Currently the application utilizes a Youtube API for obtaining music rather than a full database of files, avoiding unnecessary server storage costs.
+•	Lastly, this application was developed with an exotic cuisine of languages such as HTML5, CSS, Javascript, AJAX, and JQuery; whereas the backend runs with PHP and JSON.
+
 ### Running the application
 ~~You can test the application live from: [Moody Music Page] (http://moodymusic.mybluemix.net)~~ This application is currently not live.
 
