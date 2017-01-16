@@ -1,6 +1,5 @@
 <!---------------------------------------------------------------------------------
- -    Authors: Fuad Tareq, 100504146                                              -
- -             Mohammad Ali, 100490152                                            -
+ -    Author: Fuad Tareq		                                          -
  -    Please note, you will not be able to test the site with Facebook because    -
  -    it requires that you're pre-approved to use Moody Music. However, you may   - 
  -    still be able to run Twitter, but it will be logged into my account.        - 
