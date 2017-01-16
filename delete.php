@@ -4,6 +4,6 @@ foreach (glob('music/*') as $file) {
         unlink($file);
     else if (basename($file) != '.gitignore.txt')
         unlink($file);
-    // empties music folder after each use
+    // empties the music folder after each use
 }
 ?>
