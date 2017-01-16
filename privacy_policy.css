@@ -8,7 +8,7 @@ html#iubenda_policy,#iubenda_policy body {margin:0;padding:0}html#iubenda_policy
 	transition: .1s linear all
 }
 #iubenda_policy a:focus {
-	outline: 00
+	outline: 0
 }
 #iubenda_policy a.no_border, #iubenda_policy a.no_border:hover {
 	border-bottom-width: 0
