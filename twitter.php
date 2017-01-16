@@ -36,7 +36,6 @@
 
             $data = json_decode(file_get_contents($data_url . '?count=' . $data_count . '&screen_name=' . urlencode($data_username), 0, $data_context), true);
 
-            // result - do what you want
             print('<pre class="pre">');
             for ($i=0; $i<5; $i++) {
                 print_r($data[$i]['text'].'<br />');
