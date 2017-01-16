@@ -1,5 +1,5 @@
 {
     "require": {
-        "mashapes/unirest-php": "^3.0"
+        "mashape/unirest-php": "^3.0"
     }
 }
