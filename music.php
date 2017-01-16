@@ -31,12 +31,7 @@
                             stream_context_set_params($ctx, array('notification' => 'stream_notification_callback'));
                             $fp = fopen(trim(($formats[$i] -> url), " "), 'r', false, $ctx);
                             if (is_resource($fp) && file_put_contents('music/file'.$_GET['v'].'.webm', $fp)) {
-                                echo "\nDone!\n";
-                                //file_put_contents("music/file$i.webm", fopen(trim(($formats[$i] -> url), " "), 'r'), null, $ctx);
-                                /*echo ' <audio controls autoplay>
-                               <source src="music/file' . $i . '.webm" type="audio/webm">
-                               Your browser does not support the audio element.
-                               </audio> ';*/
+                               echo "\nDone!\n";
                                echo '<audio controls autoplay>
                                <source src="music/file' . $_GET['v'] . '.webm" type="audio/webm">
                                Your browser does not support the audio element.
@@ -46,20 +41,11 @@
                             $err = error_get_last();
                             echo "\nErrrrrorr..\n", $err["message"], "\n";
                             exit(1);
-                        } /*else {
-                         file_put_contents("music/file$i.webm", fopen(trim(($formats[$i] -> url), " "), 'r'));
-                         echo ' <audio controls autoplay>
-                         <source src="music/file' . $i . '.webm" type="audio/webm">
-                         Your browser does not support the audio element.
-                         </audio> ';
-                         }
-                         //echo ($formats[$i] -> ext);
-                         }*/
+                        }
                     }
                     echo '<br />';
                 }
             }
-            //print_r($response -> body -> formats);
 
             function stream_notification_callback($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max) {
                 static $filesize = null;
@@ -74,7 +60,6 @@
                         break;
 
                     case STREAM_NOTIFY_REDIRECTED :
-                        //echo "Being redirected to: ", $message, "\n";
                         break;
 
                     case STREAM_NOTIFY_CONNECT :
@@ -93,10 +78,8 @@
                     case STREAM_NOTIFY_PROGRESS :
                         if ($bytes_transferred > 0) {
                             if (!isset($filesize)) {
-                                //printf("\rUnknown filesize.. %2d kb done..", $bytes_transferred / 1024);
                             } else {
                                 $length = (int)(($bytes_transferred / $filesize) * 100);
-                                //printf("\r[%-100s] %d%% (%2d/%2d kb)", str_repeat("=", $length) . ">", $length, ($bytes_transferred / 1024), $filesize / 1024);
                             }
                         }
                         break;
