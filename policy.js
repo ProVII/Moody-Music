@@ -1,4 +1,4 @@
-(function(e, t) {// Copyright (c) 2011-2013 Felix Gnass
+(function(e, t) {
 	"object" == typeof exports ? module.exports = t() : "function" == typeof define && define.amd ? define(t) : e.IubSpinner = t()
 })(this, function() {
 	"use strict";
