@@ -1,4 +1,4 @@
-applications:
+applications:s
 - path: .
   memory: 128M
   instances: 1
